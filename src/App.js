@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
+import ErrorBoundary from './Pages/ErrorBoundary'
 import './App.css';
 import Error from './Pages/Error';
 import Navbar from './Pages/Navbar';
@@ -47,6 +48,7 @@ function App() {
   return (
     <div>
       <div className="App">
+        <ErrorBoundary>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}>
@@ -73,6 +75,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Error />} />
         </Routes>
+        </ErrorBoundary>
       </div>
     </div>
   );
