@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <Link className="nav__links" to="/">
-        Random Users
+        Random Profiles
       </Link>
       <Link to="/">Home</Link>
       <Link to="/users">Users</Link>
