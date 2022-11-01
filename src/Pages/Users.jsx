@@ -33,7 +33,7 @@ function Users({
 
                 <div className="profile__detail">
                   <p className='profile__title'> <span>Name: </span>
-                    {person.name.title} {person.name.first}
+                    {person.name.title} {person.name.first}{" "}
                     {person.name.last}
                   </p>
                   <p className='profile__gender'> <span>Gender: </span> {person.gender}</p>

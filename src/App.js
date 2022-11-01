@@ -1,5 +1,5 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import React , {useState, useEffect} from 'react';
+import {Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import ErrorBoundary from './Pages/ErrorBoundary'
@@ -9,7 +9,7 @@ import Navbar from './Pages/Navbar';
 import Description from './Pages/Description';
 import Example from './Pages/Example';
 import Users from './Pages/Users';
-import { useState, useEffect } from 'react';
+
 
 function App() {
   const [user, setUser] = useState([]);
