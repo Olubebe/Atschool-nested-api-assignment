@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+ display: block;
+ margin-top: 50px;
+ margin-left: 40px;
+ align-items: center;
+}
+.sub-heading{
+  text-transform: capitalize;
+  margin-left: 50px;
+  padding: 24px;
+}
+
+.wrapper-navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  
+}
+
+.wrapper__description{
+  color: #000;
+  margin-left:20px;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 500; 
+    cursor: pointer;
+
+}
+
+
+
+.wrapper__example{
+  margin-right:50px ;
+  color: #000;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 500;
+
+}
