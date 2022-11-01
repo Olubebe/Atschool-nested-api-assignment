@@ -1,6 +1,6 @@
 import React from "react";
 
-function DescExa() {
+function Example() {
   return (
     <div>
       Seems The Nested Routes Worked
@@ -12,4 +12,4 @@ function DescExa() {
   );
 }
 
-export default DescExa;
+export default Example;

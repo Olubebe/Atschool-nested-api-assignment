@@ -5,8 +5,8 @@ import About from './Pages/About';
 import './App.css';
 import Error from './Pages/Error';
 import Navbar from './Pages/Navbar';
-import Description from './Pages/Desc';
-import DescExa from './Pages/DescExa';
+import Description from './Pages/Description';
+import Example from './Pages/Example';
 import Users from './Pages/Users';
 import { useState, useEffect } from 'react';
 
@@ -51,7 +51,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}>
             <Route path="description" element={<Description />} />
-            <Route path="example" element={<DescExa />} />
+            <Route path="example" element={<Example />} />
           </Route>
           <Route
             path="/users"
